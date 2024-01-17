@@ -7,8 +7,8 @@ El equipo D conformado por Helena, Ana, Tony y Cristina hemos desarrollado la pa
 ## CARACTERÍSTICAS🟥
 
 - Registro y login de usuarios.
-- Creación, modificación y eliminación de post.
-- Recuento de `me gusta` de post.
+- Creación, modificación y eliminación de los post.
+- Recuento de `me gusta` de los post.
 - Buscador de post.
 - Ventana de perfil de usuario.
 - Configuracion del perfil del usuario.
@@ -62,14 +62,7 @@ El equipo D conformado por Helena, Ana, Tony y Cristina hemos desarrollado la pa
 
 ## DEPENDENCIAS 
 
-    - express           (Agrega los módulos package.json y package-lock.json)    (El primero!!)
-    - dotenv            (Acceder al archivo .env)
-    - mysql12           (Manejador la base de datos)
-    - jsonwebtoken      (Manejador el usuario)
-    - bcrypt            (Encriptador)
-    - joi               (Validador exquemas de datos)
-    - cors              ()
-    - nodemon           ()
+
     
 
 ## ENDPOINTS 
