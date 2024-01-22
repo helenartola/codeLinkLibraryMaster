@@ -5,9 +5,32 @@
 
 html,
 body {
-  background-color: #242424;
+  background-color: #303030;
+  font-family: Jost, sans-serfi;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .logo {
   width: 200px;
+}
+
+.description {
+  border-bottom: 1px solid white;
+  padding: 20px 0 20px 0;
+}
+.description h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.description h3 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.main-container {
+  height: 100vh;
 }
