@@ -1,0 +1,47 @@
+/* Estilos para el botón de cambio de tema */
+.theme-switcher {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+/*.theme-switcher:hover {
+background-color:  
+Estilo para el botón de cambio, si no lo utilizamos borrar.*/
+
+
+/* Estilos generales para la página */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Estilos para el modo claro */
+body.light-mode {
+  background-color: white;
+  color: #333;
+  /* Añadimos regla para anular el fondo oscuro de app.css */
+  background-color: initial;
+}
+
+/* Estilos para el modo oscuro */
+body.dark-mode {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+
+  
